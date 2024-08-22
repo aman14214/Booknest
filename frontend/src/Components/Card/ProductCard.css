@@ -1,0 +1,26 @@
+.fa-heart
+{
+    overflow: hidden;
+    color: var(--red-color);
+ 
+   
+}
+.card-basic{
+    background-image: linear-gradient(to right,#2bc9b1,#D3D3D3);
+}
+.added-to-wishlist-btn
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    border-radius: 50%;
+    margin: 0.8rem 1.1rem 0 0;
+}
+
+.added-to-wishlist-btn:hover
+{
+    background-color: var(--grey);
+    
+    
+}

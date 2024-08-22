@@ -1,0 +1,33 @@
+.shop-container
+{
+    position: relative;
+    width: 100%;
+  
+   
+}
+
+.products-container
+{
+    margin-left: 30rem;
+    padding-top: 3rem;
+    min-height: 61rem;
+    /* background-image: linear-gradient(to right,#2bc9b1,#D3D3D3); */
+   
+    
+}
+
+.products-card-grid
+{
+    width: 100%;
+    display: grid;
+    padding: 2rem 12rem 12rem 12rem;
+    flex-grow: 1;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, 24rem);
+    justify-items: center;
+    justify-content: space-evenly;
+   
+    /* background-image: linear-gradient(to right,#2bc9b1,#D3D3D3); */
+    
+   
+}
